@@ -12,7 +12,7 @@ APPCFG = {
 	HEADER_LOGO_TARGET: "http://www.esri.com",
 	// Header top right link
 	HEADER_LINK_TEXT: "A story map",
-	HEADER_LINK_URL: "http://storymaps.esri.com/home/",
+	HEADER_LINK_URL: "http://storymaps.arcgis.com",
 	// Control display of Facebook and Twitter links
 	HEADER_SOCIAL: {
 		facebook: true,
@@ -25,7 +25,7 @@ APPCFG = {
 	},
 	
 	// Header, Picture Panel and Carousel colors
-	COLORS: ["#444", "#797979", "#c2c2c2"],
+	COLORS: ["#444", "#B4B4B4", "#E5E5E5"],
 	
 	// Map popup colors
 	POPUP_BACKGROUND_COLOR: "#444444", 
@@ -146,7 +146,7 @@ APPCFG = {
 	
 	COLOR_SCHEMES:  [
 		// COLORS is added as the first item at runtime
-		{name: "Black", headerColor: "#000", middleColor: "#797979", footerColor: "#c2c2c2"},
+		{name: "Black", headerColor: "#000", middleColor: "#B4B4B4", footerColor: "#E5E5E5"},
 		{name: "Blue", headerColor: "#0e3867", middleColor: "#5d6f89", footerColor: "#9096a9"},
 		{name: "Green", headerColor: "#1a3606", middleColor: "#737c6c", footerColor: "#a8b09e"}
 	],

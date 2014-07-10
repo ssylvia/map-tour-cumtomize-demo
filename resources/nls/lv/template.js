@@ -90,7 +90,7 @@
 				addTabLocation: "Izvietojums",
 				addSelectCaption: "Izvēlieties vai iemetiet bildi",
 				addNoteVideo: "Apskatiet Palīdzību, lai uzzinātu instrukcijas kā izmantot video",		
-				addSelectCaptionNoFileReader: "Izvēlieties bildi",	
+				addSelectCaptionNoFileReader: "Izvēlieties attēlu",	
 				addChangePhoto: "Mainīt bildi un sīkattēlu",
 				addPictureResolutionIntro: "Attēla rezolūcija ir lielāka nekā nepieciešams:",
 				addPictureResolutionOldBrowser: "Attēla rezolūcija ir lielāka nekā nepieciešams. Optimizēt Map Tour pieredzi, norādot zemāku rezolūciju nekā %RECOMMENDED_RES%.",
@@ -327,6 +327,7 @@
 				header: "Ievadiet epastu vai ID no jūsu Picasa vai Google+ konta.",
 				userInputLbl: "Ievadiet epastu vai ID",
 				signInMsg2: "Konts nav atrasts",
+				signInMsg3: "Nav publiska albuma",
 				howToFind: "Kā atrast Picasa vai Google+ konta ID",
 				howToFind2: "Kopēt ciparus starp pirmo un otro \'/\' no jebkura Picasa vai G+ lapa"
 			},
@@ -367,7 +368,7 @@
 			},
 			viewGeoTag: {
 				title: "Izvēlieties un nosakiet izvietojumu jūsu attēliem/video",
-				header: "Lai atrastu, noklikšķiniet vai pieskarieties bildēm, kuras vēlaties importēt.",
+				header: "Lai atrastu, noklikšķiniet vai pieskarieties attēliem, ko vēlaties importēt.",
 				headerMore: "Kāpēc manas bildes/video nav ģeoizvietoti?",
 				headerExplain: "Ja jūsu attēliem ir derīgs izvietojums, tie tiks automātiski izvietoti uz kartes un uzskaitīti otrajā cilnē.<br /><br />Pēc noklusējuma Picasa un Flickr neizmanto bilžu EXIF izvietojuma metadatus, pārbaudiet Flickr/Picasa iestatījumus zem Privacy cilnes, lai iespējotu bildes atrašanās izmantošanu. Jūs varat pilnībā ievest atpakaļ savus attēlus Flickr/Picasa.<br /><br />Priekš Facebook, jums ir jāiet uz katra attēla, jānoklikšķina uz Rediģēt un jāizvēlas izvietojums starp ieteiktajām izvēlēm, kas balstās uz bildes EXIF metadatiem.",
 				leftPanelTab1: "Lai atrastu",
@@ -409,7 +410,7 @@
 					div1: "Map Tour šablons ir noformēts, lai prezentētu ģeogrāfisku informāciju, ja ir pārliecinoši fotogrāfiskie vai mediju elementi stāstam, ko jūs vēlaties pastāstīt.",
 					div2: "Šablons producē pievilcīgu, viegli izmantojamu web aplikāciju, kas ļauj jums prezentēt nelielu vietu komplektu kartē numurētas secībā, caur kuru lietotāji to var pārlūkot. Šablons ir paredzēts izmantošanai jebkurā web pārlūkā uz jebkuras ierīces, ieskaitot viedtālruņus un planšetdatorus. <br /><br />Te ir piemērs aplikācijai, kuras jūs varat izveidot:",
 					div4: "<a href='http://storymaps.esri.com/stories/maptour-palmsprings' target='_blank'>Palm Springs Map Tour</a>.",
-					div42: "Lai apskatītu map tours, kras veidojuši citi lietotāji, <a href='http://links.esri.com/storymaps/map_tour_gallery' target='_blank'>ameklējiet galeriju</a> on the <a href='http://storymaps.esri.com/' target='_blank'>Story Maps tīmekļa vietnē</a>. Jūs varat sekot mums arī Twitter <a href='https://twitter.com/EsriStoryMaps' target='_blank'>@EsriStoryMaps</a>.",
+					div42: "Lai apskatītu karšu ceļvežus, kurus veidojuši citi lietotāji, <a href='http://links.esri.com/storymaps/map_tour_gallery' target='_blank'>apmeklējiet galeriju</a> tīmekļa vietnē <a href='http://storymaps.arcgis.com/' target='_blank'>Story Maps</a>. Jūs varat sekot mums arī Twitter lapā <a href='https://twitter.com/EsriStoryMaps' target='_blank'>@EsriStoryMaps</a>.",
 					div5: "Mēs labprāt vēlētos dzirdēt jūsu atsauksmes! Neatkarīgi no tā vai jums ir jautājumi, vēlaties pieprasit jaunu elementu, vai uzskatāt , ka esat atradis kļūdu, lūdzu apmeklējiet <a href='http://links.esri.com/storymaps/forum' target='_blank'>Story Maps lietotāju forums</a>."
 				},
 				tab2: {
@@ -417,9 +418,9 @@
 					div1: "Galvenais elements, kas ir jāievēro, būvējot Map Tour, ir izvēlēties, kur tiks glabātas bildes. Map Tour varat izmantot bildes, kas saglabātas uz galvenajiem foto koplietošanas servisiem, jebkurā web serverī vai kā piesaiste elementu servisam.",
 					div1a: "Aplūkojiet pēdējo sadaļu šajā tabulatorā, lai uzzinātu par atbalstītajiem attēlu un video formātiem.",
 					div2: "Interaktīvais veidotājs dod jums divas iespējas apstrādāt attēlus jūsu Map Tour:",
-					div3: "<ul><li>Jūs varat lietot <b>foto, kas jau ir tiešsaistē</b>, piem., attēlus, kas glabājas foto koplietošanas vietnēs, piemēram, Flickr vai saglabātos attēlus savā mājas lapā. Šiem attēliem būs atsauce jūsu Map Tour caur to URL</li><li>Jūs varat arī <b>augšupielādēt fotoattēlus no jūsu datora</b> tieši jūsu Map Tour. Šī augšupielādes opcija paredz, ka jums ir ArcGIS for Organizations abonementa konts un jums ir Izdevēja vai Administratora privilēģijas, jo tas automātiski rada viesotu elementu servisu, kur jūsu fotogrāfijas tiek saglabātas kā piesaistes)</li></ul>",
+					div3: "<ul><li>Jūs varat lietot <b>fotoattēlus, kas jau ir tiešsaistē</b>, piemēram, attēlus, kas glabājas foto koplietošanas vietnēs kā Flickr, vai saglabātos attēlus savā tīmekļa vietnē. Šiem attēliem būs atsauce jūsu kartes ceļvedī, izmantojot to vietrāžus URL</li><li>Jūs varat arī <b>augšupielādēt fotoattēlus no datora</b> tieši kartes ceļvedī. Lai veiktu augšupielādi, nepieciešams ArcGIS for Organizations konts vai administratora privilēģijas, jo jums tiek automātiski izveidots viesotu elementu pakalpojums, kur jūsu fotoattēli tiek glabāti kā pielikumi</li></ul>",
 					div4: "Galvenie lietošanas gadījumi ir:",
-					div4b: "<b>Jūsu fotogrāfijas vēl netiek viesotas</b> un jums ir ArcGIS online abonements: izmantot  elementu servisu ir jūsu labākā izvēle. Līdzīgi publiskajiem foto koplietošanas servisiem, mēs optimizēsim jūsu bildes, lai radītu ātras ielādēšanas attēlus un jums būs piekļuve visām ArcGIS platformas administratīvajām un datu pārvaldības iespējām.",
+					div4b: "<b>Jūsu fotoattēli vēl netiek viesoti,</b> un jums ir ArcGIS for Organizations konts: izmantot viesotu elementu pakalpojumu ir jūsu labākā izvēle. Līdzīgi publiskajiem fotoattēlu koplietošanas pakalpojumiem mēs optimizēsim jūsu attēlus, lai izveidotu ātri ielādējamus attēlus, un jums būs piekļuve visām ArcGIS platformas administrēšanas un datu pārvaldības iespējām.",
 					div5: "<b>Jūs neesat Organizācijas biedrs</b>: Jums vispirms jāaugšupielādē savas bildes foto koplietošanas mājas lapā, vai uz jūsu web serveri. Tad veidotājs palīdzēs izmantot šīs bildes, kas turpmāk tiks viesotas savā oriģinālajā izvietojumā.",
 					div6: "<b>Jūs meklējat, lai atkārtoti lietotu esošo Feature Service</b> kas glabā jūsu bildes kā piesaistes, vai kas atsaucas uz ārējām bildēm: skatiet detalizētāku nodaļu apakšā.",
 					div7: "<b>Jūs esat iepriekšējās versijas lietotājs</b> Map Tour šablonam un jau ir jūsu CSV, kas atsaucas jūsu bildēm un sīktēliem: jums būs iespēja importēt un uzlabot savus datus. Veidotājs atbalsta tikai CSV, kas lieto plat/gar laukus; uz adresēm balstīts CSV var tikt turpināts lietot caur jūsu web karti (skatīt nodaļu zemāk).",
@@ -470,7 +471,7 @@
 					div3: "Formatē jūsu uzrakstu tekstu, izmantojot HTML tagus",
 					div4: "Galvenes un attēla nosaukums/paraksts var ietvert HTML tagus, lai definētu formatējumu un saites. Piemēram, šis kods pievieno dzeltenu saiti:",
 					div4a: "Ierakstiet labu apakšvirsrakstu jūsu tūrei",
-					div4b: "Uzrakstiet tiešām labu apakšvirsrakstu savai tūrei. Apakšvirsraksts ir labs veids kā piesaistīt cilvēkus jūsu tūrei un pastāstīt viņiem ko tie atklās tūrē. Šī ir laba vieta lai pastāstītu auditorijai par valsti un pavalsti kurā atrodas jūsu tūre. Piemēram, neuzskatiet, ka cilvēki zinās jūsu tūres pilsētas vai ciemata izvietojumu. Jūsu virsraksts var tikt formatēts izmantojot HTML tagus, kā piemēram iekļaujot saites. Tomēr nepadariet virsrakstu pārāk garu. Mazākos pārlūku logos vai uz iPad tas var pilnībā nedeŗe't vai var tikt apgriezts. Ja jūs nevarat izdomāt labu apakšvirsrakstu, tad atstājiet to tukšu.",
+					div4b: "Atvēliet laiku, lai uzrakstītu saistošu apakšvirsrakstu savai tūrei. Apakšvirsraksts ir labs paņēmiens, kā piesaistīt cilvēkus tūrei un pastāstīt, ko viņi te uzzinās. Apakšvirsraksts ir arī piemērots, lai pavēstītu mērķauditorijai, kurā valstī izvietota jūsu tūre. Piemēram, neuzskatiet, ka cilvēki zinās jūsu tūres pilsētas vai ciemata izvietojumu. Virsrakstu var formatēt, izmantojot HTML tagus, piemēram, iekļaujot saites. Tomēr nepadariet virsrakstu pārāk garu. Mazākos pārlūkprogrammu logos vai iPad tas var neietilpt vai tikt apgriezts. Ja jūs nevarat izdomāt labu apakšvirsrakstu, tad atstājiet šo vietu tukšu.",
 					div5: "Atbalstot slāņus",
 					div6: "Jūs varat pievienot papildu atbalsta slāņus, lai nodrošinātu kontekstu Map Tour. Šie slāņi var saturēt citus ģeogrāfiskos elementus, kurus jūs vēlaties attēlot kartē paplidus Map Tour punktiem, kā piemēram, studiju areālu, iešanas vai braukšanas maršrutu, kas savieno jūsu maršruta punktus, utt. Map Tour šablons parāda šos papildu atbalsta slāņus, izmantojot jūsu norādīto simboliku šajā web kartē, bet uznirstošie logi nav pieejami.",
 					div7: "Turiet jūsu ceļojumu īsu un saldu",
@@ -524,7 +525,10 @@
 				shareA2div1: "Saglabājiet un izmantojiet atkal sekojošu saiti %LINK1% vai izmantojiet <a href='%LINK2%' target='_blank'>aplikācijas vienības lapu</a>.",
 				shareA2div2: "Kā aplikācijas īpašnieks, kad esat pierakstījies ArcGIS.com, aplikācija satur pogu, lai atvērtu to interaktīvajā veidotājā:",				
 				shareQ3: "Kur tiek glabāti dati?",
-				shareA3: "Tūres konfigurācija tiek glabāta <a href='%LINK1%' target='_blank'>šajā web kartes vienībā</a> un <a href='%LINK2%' target='_blank'>šajā web aplikācijas vienībā</a>. Ja esat izmantojis Flickr, Picasa, Facebook vai YouTube importu, jūsu attēli un video tiek glabāti turpat un netiek dublēti ArcGIS Online."
+				shareA3: "Ceļveža konfigurācija tiek glabāta <a href='%LINK1%' target='_blank'>šajā tīmekļa kartes elementā</a> un <a href='%LINK2%' target='_blank'>šajā tīmekļa aplikācijas elementā</a>. Flickr, Picasa un Facebook attēlu un YouTube videoklipu atsauces ir norādītas attiecīgajās vietnēs un netiek dublētas ArcGIS Online.",
+				shareWarning: "%WITH% koplietošana ir atspējota, jo jūs neesat <a href='%LINK%' target='_blank'>web kartes</a> īpašnieks.",
+				shareWarningWith1: "publiski",
+				shareWarningWith2: "publiski un organizācijā"
 			}
         }
     })

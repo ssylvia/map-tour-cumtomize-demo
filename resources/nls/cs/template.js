@@ -141,7 +141,7 @@
 				settingsLayoutSelected: "Vybrané rozvržení",
 				settingsLayoutSelect: "Zvolit toto rozvržení",
 				settingsLayoutNote: "Při používání videí na bodech bude pod videem vždy poutač, i když tato možnost není zaškrtnuta.",
-				settingsLayoutLocBtn: "Zobrazit tlačítko 'Hledat'",
+				settingsLayoutLocBtn: "Zobrazit tlačítko \'Lokalizovat\'",
 				settingsLayoutLocBtnHelp: "Tato funkcionalita je podporována na většině mobilních zařízení a stolních prohlížečů (Internet Explorer 9).",
 				settingsColorExplain: "Změňte vzhled volbou přednastaveného motivu, nebo si vytvořte svůj vlastní.",
 				settingsLabelColor: "Barvy záhlaví, obsahu a zápatí",
@@ -327,6 +327,7 @@
 				header: "Zadejte svůj e-mail nebo identifikátor pro účet Picasa nebo Google+.",
 				userInputLbl: "Zadat e-mail nebo identifikátor",
 				signInMsg2: "Účet nenalezen",
+				signInMsg3: "Žádné veřejné album",
 				howToFind: "Jak najít identifikátor účtu Picasa nebo Google+",
 				howToFind2: "Zkopírujte číslice mezi prvním a druhým lomítkem (/) libovolné stránky služeb Picasa nebo Google+."
 			},
@@ -409,7 +410,7 @@
 					div1: "Tato šablona prohlídky mapy je navržena pro prezentaci geografických informací, pokud k příběhu, který chcete vyprávět, existuje atraktivní fotografický nebo mediální prvek.",
 					div2: "Pomocí této šablony lze vytvořit atraktivní a snadno ovladatelnou webovou aplikaci umožňující umístit na mapu malou sadu míst v číslované sekvenci, kterou mohou uživatelé procházet. Šablona je navržena pro použití v libovolném webovém prohlížeči na všech zařízeních včetně chytrých telefonů a tabletů. <br /><br />Zde je příklad aplikace, kterou můžete vytvořit:",
 					div4: "<a href='http://storymaps.esri.com/stories/maptour-palmsprings' target='_blank'>prohlídka mapy Palm Springs</a>.",
-					div42: "Chcete-li vidět příklady prohlídek map, které vytvářejí ostatní uživatelé, <a href='http://links.esri.com/storymaps/map_tour_gallery' target='_blank'>podívejte se do galerie</a> na <a href='http://storymaps.esri.com/' target='_blank'>webu map s příběhem</a>. Můžete nás také sledovat na Twitteru na <a href='https://twitter.com/EsriStoryMaps' target='_blank'>@EsriStoryMaps</a>.",
+					div42: "Chcete-li vidět příklady prohlídek map, které vytvářejí ostatní uživatelé, <a href='http://links.esri.com/storymaps/map_tour_gallery' target='_blank'>podívejte se do galerie</a> na <a href='http://storymaps.arcgis.com/' target='_blank'>webovou mapu se specificky zaměřeným obsahem</a>. Můžete nás také sledovat na Twitteru na <a href='https://twitter.com/EsriStoryMaps' target='_blank'>@EsriStoryMaps</a>.",
 					div5: "Rádi od vás uslyšíme! Ať už máte otázku, chcete požádat o novou funkci nebo si myslíte, že jste našli chybu, navštivte prosím <a href='http://links.esri.com/storymaps/forum' target='_blank'>uživatelské fórum map s příběhem</a>."
 				},
 				tab2: {
@@ -417,9 +418,9 @@
 					div1: "Hlavním aspektem, který je třeba při vytváření prohlídky mapy zvážit, je výběr úložiště obrázků. Prohlídky map mohou využívat obrázky uložené prostřednictvím hlavních služeb pro sdílení fotografií, na libovolném webovém serveru nebo jako přílohy služeb feature service.",
 					div1a: "Podrobné informace o podporovaných formátech obrázků a videa naleznete v poslední části této karty.",
 					div2: "Interaktivní nástroj pro tvorbu vám dává dvě možnosti, jak v prohlídce mapy zpracovávat obrázky:",
-					div3: "<ul><li>Můžete použít <b>fotografie, které již jsou online</b>, například obrázky uložené ve službě pro sdílení fotografií jako Flickr nebo obrázky uložené na vašem vlastním webu. Na URL těchto obrázků budou mířit odkazy z prohlídky mapy.</li><li>Můžete také <b>nahrávat fotografie z počítače</b> přímo do prohlídky mapy. Tato možnost pro nahrávání vyžaduje předplatné ArcGIS Online a oprávnění vydavatele nebo administrátora, protože automaticky vytvoří hostovanou feature service, ve které se fotografie uloží jako přílohy.</li></ul>",
+					div3: "<ul><li>Můžete použít <b>fotografie, které již jsou online</b>, například obrázky uložené ve službě pro sdílení fotografií jako je Flickr, nebo obrázky uložené na vašem vlastním webu. Tyto obrázky budou odkazovat do mapové prohlídky skrze jejich URL.</li><li>Do mapové prohlídky můžete také <b>nahrávat fotografie přímo z Vašeho počítače</b>. Tato možnost nahrávání vyžaduje účet  ArcGIS for Organizations a oprávnění vydavatele nebo administrátora, protože automaticky vytvoří hostovanou feature service, ve které se fotografie uloží jako přílohy.</li></ul>",
 					div4: "Využití se najde hlavně v těchto případech:",
-					div4b: "<b>Fotografie ještě nemáte hostované</b> a máte předplatné ArcGIS Online: Využití hostované feature service je pro vás nejlepší možnost. Stejně jako veřejné služby pro sdílení fotografií vaše obrázky optimalizujeme, aby se rychle načítaly. Budete mít přístup ke všem možnostem administrace a správy dat platformy ArcGIS.",
+					div4b: "<b>Fotografie ještě nemáte hostované</b> a vlastníte účet ArcGIS for Organizations: Využití hostované feature service je pro vás nejlepší možnost. Stejně jako veřejné služby pro sdílení fotografií, Vaše obrázky optimalizujeme, aby se rychleji načítaly. Budete mít přístup ke všem možnostem administrace a správy dat platformy ArcGIS.",
 					div5: "<b>Nejste členem organizace</b>: Nejprve bude nutné nahrát obrázky na web pro sdílení fotografií nebo na vlastní webový server. Nástroj pro tvorbu vám pak pomůže použít tyto obrázky, které budou dál uloženy v původním umístění.",
 					div6: "<b>Chcete znovu využít stávající Feature Service</b>, ve které jsou obrázky uloženy jako přílohy nebo která odkazuje na externě uložené obrázky. Podrobný návod najdete v příslušné části níže.",
 					div7: "<b>Využíváte předchozí verzi</b> šablony prohlídky mapy a již máte soubor CSV, který odkazuje na příslušné obrázky a miniatury. Budete moci importovat a doplnit data. Nástroj pro tvorbu podporuje pouze soubory CSV, které využívají pole zeměpisné šířky a délky. Soubory CSV využívající adresy je mohou nadále používat prostřednictvím webové mapy (viz příslušná část níže).",
@@ -493,7 +494,7 @@
 					div3: "Ujistěte se, že prohlídka funguje správně, i když nejste přihlášeni do svého účtu ArcGIS.com. Adresa URL, kterou použijete, by vás neměla přesměrovat na přihlašovací stránku nebo do režimu nástroje pro tvorbu.",
 					div4: "Je dobré vyzkoušet, jak vaše prohlídka mapy vypadá na iPadu při orientaci na šířku, abyste měli jistotu, že se na tomto oblíbeném zařízení zobrazuje správně. Můžete tak zkontrolovat, zda popisky nepřekrývají příliš velkou část obrázků. Také uvidíte, zda je podnadpis vyhovující a zobrazuje se celý.",
 					div5a: "Doporučení pro vyhledávání",
-					div5b: "Abyste lidem pomohli najít vaši prohlídku mapy při vyhledávání v ArcGIS Online, doporučujeme přidat klíčové slovo 'mapa s příběhem', na stránce položek aplikace vaší prohlídky mapy (nikoli na stránce položek vaší webové mapy), spolu s dalšími klíčovými slovy, jako např. název státu nebo provincie, kde je prohlídka umístěna, název země, pokud se nachází mimo USA, a tematická klíčová slova jako např. 'veřejné umění', 'turistický průvodce' nebo 'historická místa'. Tato klíčová slova také pomohou nám ve společnosti Esri najít zajímavé nové příklady prohlídek, které můžeme ukázat v našich galeriích a propagovat přes sociální média. Také doporučujeme, abyste na svou stránku položek aplikace nahráli hezkou grafickou miniaturu, např. malý snímek obrazovky z prohlídky nebo jeden z obrázků, které se v ní nacházejí. Tento obrázek se automaticky použije, pokud bude vaše mapa přidána do galerie ArcGIS Online."
+					div5b: "Abyste lidem pomohli najít vaši prohlídku mapy při vyhledávání v ArcGIS Online, doporučujeme přidat klíčové slovo \'mapa s příběhem\', na stránce položek aplikace vaší prohlídky mapy (nikoli na stránce položek vaší webové mapy), spolu s dalšími klíčovými slovy, jako např. název státu nebo provincie, kde je prohlídka umístěna, název země, pokud se nachází mimo USA, a tematická klíčová slova jako např. \'veřejné umění\', \'turistický průvodce\' nebo \'historická místa\'. Tato klíčová slova také pomohou nám ve společnosti Esri najít zajímavé nové příklady prohlídek, které můžeme ukázat v našich galeriích a propagovat přes sociální média. Také doporučujeme, abyste na svou stránku položek aplikace nahráli hezkou grafickou miniaturu, např. malý snímek obrazovky z prohlídky nebo jeden z obrázků, které se v ní nacházejí. Tento obrázek se automaticky použije, pokud bude vaše mapa přidána do galerie ArcGIS Online."
 				}
 			},
 			share: {
@@ -508,7 +509,7 @@
 				sharePrivateBtn1: "Sdílet veřejně",
 				sharePrivateBtn2: "Sdílet s mou organizací",
 				sharePrivateProgress: "Probíhá sdílení…",
-				sharePrivateErr: "Sdílení selhalo, zkuste to znovu nebo",
+				sharePrivateErr: "Sdílení se nezdařillo, zkuste to znovu nebo",
 				sharePrivateOk: "Sdílení bylo úspěšně aktualizováno, probíhá nahrávání…",
 				sharePreviewAsUser: "Náhled",
 				shareHeader1: "Vaše prohlídka je <strong>veřejně přístupná</strong>.",
@@ -524,7 +525,10 @@
 				shareA2div1: "Uložte si pro budoucí použití tento odkaz %LINK1% nebo použijte <a href='%LINK2%' target='_blank'>stránku položek aplikace</a>.",
 				shareA2div2: "Když jste přihlášeni na webu ArcGIS.com jako majitel aplikace, tak aplikace obsahuje tlačítko pro otevření interaktivního nástroje pro tvorbu:",				
 				shareQ3: "Kde jsou uložena data?",
-				shareA3: "Nastavení prohlídky je uloženo v <a href='%LINK1%' target='_blank'>této položce webové mapy</a> a <a href='%LINK2%' target='_blank'>této položce webové aplikace</a>. Pokud jste použili import z Flickru, Picasa, Facebooku nebo YouTube, zůstávají vaše obrázky a videa uloženy tam a nejsou duplikovány v ArcGIS Online."
+				shareA3: "Nastavení prohlídky je uloženo v <a href='%LINK1%' target='_blank'>této položce webové mapy</a> a <a href='%LINK2%' target='_blank'>této položce webové aplikace</a>. Obrázky a videa služeb Flickr, Picasa, Facebook a YouTube zůstávají uloženy v podobě odkazů na příslušné stránky a nejsou duplikovány v ArcGIS Online.",
+				shareWarning: "Sdílení %WITH% bylo zakázáno, protože nejste vlastníkem <a href='%LINK%' target='_blank'>webové mapy</a>.",
+				shareWarningWith1: "veřejně",
+				shareWarningWith2: "veřejně a s organizací"
 			}
         }
     })

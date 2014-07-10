@@ -1,0 +1,25 @@
+BUILDER COLORS
+--------------
+footer: #f6c500
+
+
+APP ID
+------
+3328578df304464f97f11ac388b86980
+
+
+FONT SCRIPTS
+------------
+<script type="text/javascript" src="//use.typekit.net/uwz4jix.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+CUSTOM CSS
+----------
+#header {
+				background-image: url('http://www.esri.com/~/media/Images/Content/news/storymaps/olympic-controversy/banner.jpg');
+			}
+			
+			h1,h2,h3,h4,h5,h6,div,a,li,p{
+				font-family: "pragmatica-web",sans-serif !important;
+			}	
